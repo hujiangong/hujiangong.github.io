@@ -17,7 +17,7 @@
 <!--<![endif]-->
 
 <head>
-  <title>Hexo</title>
+  <title>To汪仔的个人博客搭建指南 | Hexo</title>
   <!-- Meta data -->
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -178,7 +178,7 @@
       </time>
     
 </span>
-                <h1></h1>
+                <h1>To汪仔的个人博客搭建指南</h1>
             </div>
         </div>
         <div class="col-md-8 col-md-offset-2">
@@ -189,6 +189,7 @@
 <li><strong>Note.js</strong>：一个Javascript运行环境，猜测JavaScript能在静态页面正常运行就是基于这个。<a href="https://nodejs.org" target="_blank" rel="noopener">https://nodejs.org</a> 官网下载，使用默认安装即可。</li>
 <li><strong>Hexo</strong>：如果Note.js正常安装并且加入了环境变量中，直接在Windows命令窗口输入“npm install hexo-cli -g”即可安装。之后在命令窗口输入“hexo -v”正常显示即安装成功。</li>
 <li><strong>MarkdownPad 2</strong>：一款Markdown编辑器，我目前也是根据网上的评价下载安装，你也可以使用别的markdown编辑器，比方说CSDN博客或者有道云笔记的。（附赠一个注册码，嘘…  <strong>email</strong>: <a href="mailto:Soar360@live.com" target="_blank" rel="noopener">Soar360@live.com</a> <strong>lience</strong>：GBPduHjWfJU1mZqcPM3BikjYKF6xKhlKIys3i1MU2eJHqWGImDHzWdD6xhMNLGVpbP2M5SN6bnxn2kSE8qHqNY5QaaRxmO3YSMHxlv2EYpjdwLcPwfeTG7kUdnhKE0vVy4RidP6Y2wZ0q74f47fzsZo45JE2hfQBFi2O9Jldjp1mW8HUpTtLA2a5/sQytXJUQl/QKO0jUQY4pa5CCx20sV1ClOTZtAGngSOJtIOFXK599sBr5aIEFyH0K7H4BoNMiiDMnxt1rD8Vb/ikJdhGMMQr0R4B+L3nWU97eaVPTRKfWGDE8/eAgKzpGwrQQoDh+nzX1xoVQ8NAuH+s4UcSeQ==）</li>
+<li>如果在使用MarkdownPad的时候出现“This view has crashed”错误，安装“Awesomium 1.6.6 SDK.”即可，参考官方文档：<a href="http://markdownpad.com/faq.html#livepreview-directx" target="_blank" rel="noopener">http://markdownpad.com/faq.html#livepreview-directx</a></li>
 </ol>
 <h2 id="3-创建GitHub博客仓库"><a href="#3-创建GitHub博客仓库" class="headerlink" title="3. 创建GitHub博客仓库"></a>3. 创建GitHub博客仓库</h2><p>就按照正常的GitHub创建仓库的步骤就可以，唯一需要注意的一点就是创建的GitHub仓库格式必须是username.github.io（username是你的账号名)，这个地址也就是最后的访问域名，之后Create repository即可。<img src="https://i.imgur.com/B3PgNqq.png" alt="创建实例"></p>
 <h2 id="4-创建本地博客文件"><a href="#4-创建本地博客文件" class="headerlink" title="4. 创建本地博客文件"></a>4. 创建本地博客文件</h2><ol>
@@ -208,7 +209,9 @@
 <ol start="3">
 <li>执行”npm install hexo-deployer-git –save”命令安装一些必要的插件</li>
 <li>执行”hexo d -g”部署代码并且上传到你的GitHub地址上。</li>
-<li>打开你的项目https地址，例如我的”<a href="https://github.com/hujiangong/hujiangong.github.io.git&quot;，正常的稍等几分钟即可看到你的博客啦！！" target="_blank" rel="noopener">https://github.com/hujiangong/hujiangong.github.io.git&quot;，正常的稍等几分钟即可看到你的博客啦！！</a><h2 id="6-更改博客模板"><a href="#6-更改博客模板" class="headerlink" title="6. 更改博客模板"></a>6. 更改博客模板</h2></li>
+<li>打开你的项目https地址，例如我的”<a href="https://github.com/hujiangong/hujiangong.github.io.git&quot;，正常的稍等几分钟即可看到你的博客啦！！" target="_blank" rel="noopener">https://github.com/hujiangong/hujiangong.github.io.git&quot;，正常的稍等几分钟即可看到你的博客啦！！</a></li>
+</ol>
+<h2 id="6-更改博客模板"><a href="#6-更改博客模板" class="headerlink" title="6. 更改博客模板"></a>6. 更改博客模板</h2><ol>
 <li>首先呢，你可以到这个地址挑一个你心仪的博客模板”<a href="https://github.com/search?q=hexo+stars%3A%3E1&quot;，我暂用的是&quot;https://github.com/SuperKieran/TKL&quot;，就先拿这个来写了。" target="_blank" rel="noopener">https://github.com/search?q=hexo+stars%3A%3E1&quot;，我暂用的是&quot;https://github.com/SuperKieran/TKL&quot;，就先拿这个来写了。</a></li>
 <li>到hexo文件夹的themes目录下，这个就是博客模板的目录，在这里右键”Git Bash Here” 执行”git clone <a href="https://github.com/SuperKieran/TKL.git&quot;，当然你的地址你看上的那个模板的地址，然后执行就可以将这个模板down下来。" target="_blank" rel="noopener">https://github.com/SuperKieran/TKL.git&quot;，当然你的地址你看上的那个模板的地址，然后执行就可以将这个模板down下来。</a></li>
 <li>然后修改”_config.yml”文件的theme为刚刚down下来的目录文件名，比方说我的就是”theme: TKL”，保存，退出。执行”hexo clean”、”hexo d -g”，OK，过几分钟重新打开你的博客，就会发现模板变啦！</li>
